@@ -7,4 +7,6 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    return s[n:]
+n,s = "Manuchehr" , -6
+print(main(n,s))
