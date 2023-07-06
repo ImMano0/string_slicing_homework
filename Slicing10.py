@@ -8,4 +8,5 @@ def main(s,n,k):
     Returns:
         str: answer
     """
-    return
+    return s[n-1:k]
+print(main('python' , 3 , 3))
